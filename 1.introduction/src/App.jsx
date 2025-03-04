@@ -6,7 +6,7 @@ import TestComponent from './assets/testcomponent';
 
 function App() {
 
-  // Değişkenler burada tanımlanır
+  // Değişkenler burada tanımlanır...
   let a = "React"; // Bootcamp adını tutan string değişken
   const name = "Yusuf"; // Kullanıcı adını tutan sabit değişken
   let exam1 = 50; // İlk sınavın notu
@@ -27,7 +27,7 @@ function App() {
       {result ? <p> you passed the course</p> : <p>you are failed </p>}
 
       {
-        (exam1+exam2)/2 >=70 ? <p>succesfull</p> : <p>fail</p>
+        (exam1 + exam2) / 2 >= 70 ? <p>succesfull</p> : <p>fail</p>
       }
 
       <TestComponent /> {/* Başka bir bileşeni ekler */}
